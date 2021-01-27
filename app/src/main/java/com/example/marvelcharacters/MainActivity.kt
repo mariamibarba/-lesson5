@@ -17,19 +17,19 @@ class MainActivity : AppCompatActivity() {
 
         val products= ArrayList<products>()
 
-        products.add(products(id = 1,R.drawable.android_avatar14))
-        products.add(products(id = 2,R.drawable.android_avatar))
-        products.add(products(id = 1,R.drawable.android_avatar2))
-        products.add(products(id = 1,R.drawable.android_avatar3))
-        products.add(products(id = 1,R.drawable.android_avatar4))
-        products.add(products(id = 1,R.drawable.android_avatar5))
-        products.add(products(id = 1,R.drawable.android_avatar6))
-        products.add(products(id = 1,R.drawable.android_avatar7))
-        products.add(products(id = 1,R.drawable.android_avatar8))
-        products.add(products(id = 1,R.drawable.android_avatar9))
-        products.add(products(id = 1,R.drawable.android_avatar10))
-        products.add(products(id = 1,R.drawable.android_avatar11))
-        products.add(products(id = 1,R.drawable.android_avatar12))
+        products.add(products(id = 1,R.drawable.nature1))
+        products.add(products(id = 2,R.drawable.nature2))
+        products.add(products(id = 3,R.drawable.nature3))
+        products.add(products(id = 4,R.drawable.nature4))
+        products.add(products(id = 5,R.drawable.nature5))
+        products.add(products(id = 1,R.drawable.nature1))
+        products.add(products(id = 2,R.drawable.nature2))
+        products.add(products(id = 3,R.drawable.nature3))
+        products.add(products(id = 4,R.drawable.nature4))
+        products.add(products(id = 5,R.drawable.nature5))
+
+
+
 
 
         val adapter=ProductAdapter(products)
